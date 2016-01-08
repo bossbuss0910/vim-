@@ -21,8 +21,7 @@ set autoindent
 "インクリメンタルサーチ設定
 set incsearch
 
-"タブ文字、行末など不可視文字を表示
-"set list
+set tabstop=2 "インデントをスペース4つ分に設定"
 
 "閉じ括弧が入力されたとき、対応する括弧を表示する
 set showmatch
@@ -31,10 +30,10 @@ set showmatch
 set smartindent
 
 "シフト移動幅
-"set shiftwidth=4
+set shiftwidth=2
 
 "行頭の余白内でTabを打ち込むと、'shiftwidth'の数だけインデントする
-"set smartindent
+set smartindent
 " bundleのディレクトリ指定
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 " neobundleを読み込む
